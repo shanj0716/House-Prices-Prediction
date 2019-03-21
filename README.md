@@ -14,7 +14,7 @@ A kaggel competition project of predict sales price for each house. [here](https
 The first step is always to read the [data description](https://github.com/shanj0716/House-Prices-Prediction/blob/master/data/data_description.txt). We need to build a foundation of knowledge on the variables, so that we can make informed decisions. There are 1460 instances of training data and 1460 of test data. Total number of attributes equals 81(including ‘Id’ and ‘SalePrice’), of which 36 is numeric, 43 categorical. 19 attributes of training data and 33 attributes of test data have missing data. Then, we look at the target attributes ‘SalePrice’, analysis its distribution and do some transformation.
 Next, we explore the correlations of quantitative attributes and visualize the important attributes. With categorical attributes, we check distribution of ‘SalePrice’ with respect to variable values and enumerate create dummy variable for each possible category. 
 
-All the data provided by Kaggel can be found [here](https://github.com/shanj0716/House-Prices-Prediction/tree/master/data). Ipython notebook used to can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/exploratory_data_analysis.ipynb).
+All the data provided by Kaggel can be found [here](https://github.com/shanj0716/House-Prices-Prediction/tree/master/data). Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/exploratory_data_analysis.ipynb).
 
 ## 2. Data preprocessing - Data cleaning and feature engineering
 Before we move action to training model, data processing is always required. We applied several types of methods here:
@@ -23,17 +23,17 @@ Before we move action to training model, data processing is always required. We 
 3) Creation new features from existing ones
 4) Data transform
 
-Ipython notebook used to can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/data_preprocessing.ipynb).
+Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/data_preprocessing.ipynb).
 
 ## 3. Preparing data for modeling - Transform variables and removing outliers 
 First of all, we need to center and scale the ‘true numeric’ variables, and created dummy variables for the categorical variables. Then, we choose Ridge and Elasicnet to find the outliers of the training data. After dropping these outliers, we transform variables again to get the final training data.
  
-Ipython notebook used to can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/preparing_data_for_modeling.ipynb).
+Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/preparing_data_for_modeling.ipynb).
 
 ## 4. Modeling - Try different model strategies and fine-turn the final model
 We try 10 wildly used regression model to train with our data, using GridSearch to optimize the parameters. Comparing single model with stacking models, we choose the best model to do prediction. Furthermore, we fine-turn the prediction values manually.
 
-Ipython notebook used to can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/modeling.ipynb).
+Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/modeling.ipynb).
 
 ## 5. Conclusion 
 With the final model, our prediction got a 0.117 RMSE score comparing with the real ‘Salesprice’ data.  However, Kaggel doesn’t publish the data, so we cannot do much more evaluation. All of all, housing price prediction is a typical regression problem, which can help us get a deeper understanding of the whole machine-learning process. Finally, here’s some thinking of this project:
