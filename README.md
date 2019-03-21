@@ -1,5 +1,5 @@
 # House-Prices-Prediction
-A kaggel competition project of predict sales price for each house.[here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+A kaggel competition project of predict sales price for each house. [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 ## Table of Content
 
