@@ -1,5 +1,5 @@
 # House-Prices-Prediction
-A [kaggel competition project](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) of predict sales price for each house.
+A [kaggel competition project](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) of predicting sales price for each house.
 ## Table of Content
 
 1) Exploratory data analysis - Exploring Data structure and visualization of important attributes 
@@ -10,8 +10,8 @@ A [kaggel competition project](https://www.kaggle.com/c/house-prices-advanced-re
 
 ## 1. Exploratory data analysis - Exploring Data structure and visualization of important variables
 
-The first step is always to read the [data description](https://github.com/shanj0716/House-Prices-Prediction/blob/master/data/data_description.txt). We need to build a foundation of knowledge on the variables, so that we can make informed decisions. There are 1460 instances of training data and 1460 of test data. Total number of attributes equals 81(including ‘Id’ and ‘SalePrice’), of which 36 is numeric, 43 categorical. 19 attributes of training data and 33 attributes of test data have missing data. Then, we look at the target attributes ‘SalePrice’, analysis its distribution and do some transformation.
-Next, we explore the correlations of quantitative attributes and visualize the important attributes. With categorical attributes, we check distribution of ‘SalePrice’ with respect to variable values and enumerate create dummy variable for each possible category. 
+The first step is always to read the [data description](https://github.com/shanj0716/House-Prices-Prediction/blob/master/data/data_description.txt). We need to build a foundation of knowledge on the variables, so that we can make informed decisions. There are 1460 instances of training data and 1460 of test data. Total number of attributes equals 81(including ‘Id’ and ‘SalePrice’), of which 36 is numeric, 43 non-numeric. 19 attributes of training data and 33 attributes of test data have missing data. Then, we look at the target attribute ‘SalePrice’, analysis its distribution and do some transformation.
+Next, we explore the correlations of numeric attributes and visualize the important attributes. With non-numeric attributes, we check distribution of ‘SalePrice’ with respect to variable values and enumerate create dummy variable for each possible category. 
 
 All the data provided by Kaggel can be found [here](https://github.com/shanj0716/House-Prices-Prediction/tree/master/data). Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/exploratory_data_analysis.ipynb).
 
