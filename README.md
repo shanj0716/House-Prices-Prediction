@@ -30,7 +30,7 @@ First of all, we need to center and scale the ‘true numeric’ variables, and 
 Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/preparing_data_for_modeling.ipynb).
 
 ## 4. Modeling - Try different model strategies and fine-turn the final model
-We try 10 wildly used regression model to train with our data, using GridSearch to optimize the parameters. Comparing single model with stacking models, we choose the best model to do prediction. Furthermore, we fine-turn the prediction values manually.
+We try 9 wildly used regression model to train with our data, using GridSearch to optimize the parameters. Comparing single model with stacking models, we choose the best model to do prediction. Furthermore, we fine-turn the prediction values manually.
 
 Ipython notebook used can be found [here](https://github.com/shanj0716/House-Prices-Prediction/blob/master/notebook/modeling.ipynb).
 
